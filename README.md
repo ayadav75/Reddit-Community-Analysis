@@ -28,6 +28,8 @@ This project analyzes discussion patterns across 15 Reddit communities to unders
 
 The core question driving the work: how do communities with very different purposes (finance, gaming, politics, general Q&A, etc.) end up overlapping or diverging in what they talk about?
 
+Built by Anshuman Yadav and Tanish Mishra (https://github.com/Tan28-art)
+
 ## Abstract
 
 Social media platforms host a variety of communities, each centered around specific interests, yet the degree to which these communities share thematic content remains underexplored. This project investigates community-level homogeneity and heterogeneity across 15 Reddit subreddits spanning 5 broad domains. We built a custom data collection pipeline to crawl posts, applied BERTopic with `all-mpnet-base-v2` embeddings for unsupervised topic discovery, and refined the resulting topic labels using Google's Gemma 3 27B IT model. We then constructed binary topic-presence matrices, computed pairwise cosine similarity between communities, and analyzed shared topic fractions. Our results show that communities with narrow, well-defined purposes (like r/Bitcoin) tend to be topically homogeneous, while broad-interest communities (like r/NoStupidQuestions) are highly heterogeneous. Cross-domain topic overlap is most common within the same interest category, though politically-charged topics (tariffs, trade policy) cross category boundaries.
