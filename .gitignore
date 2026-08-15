@@ -1,0 +1,51 @@
+# Environment / Secrets
+.env
+
+# Class project report (content is in README)
+472_Project_Report.pdf
+
+# VS Code local history
+.history/
+
+# Large zip archives
+*.zip
+
+# Saved BERTopic models 
+bertopic_model_saved/
+bertopic_model_saved_better/
+bertopic_model_saved_new/
+
+# Raw JSON data from Reddit crawler 
+data_raw/
+
+# Processed CSV data files 
+data_processed/
+
+# Large merged / intermediate CSV datasets
+reddit_ALL_data.csv
+reddit_data_with_topics.csv
+reddit_data_with_topics_improved.csv
+reddit_data_with_topics_analyzed_clean_labels.csv
+reddit_data_with_topics_min_10_auto_reduce_mpnet.csv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# IDE / editor config
+.vscode/
+.idea/
+bertopic_model_saved*
